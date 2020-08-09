@@ -2,9 +2,40 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("./pics/dark_dotted.png");
+}
+
+.gallery {
+  margin-top: 50px;
+}
+
+.btn {
+  display:block;
+  background-size: contain;
+  width: 100px;
+  height: 120px;
+  background-repeat: no-repeat;
+}
+
+.btn-left {
+  background-image: url("./pics/Arrow_Left_1x.png");
+  position: absolute;
+  top: 153px;
+  left: 364px;
+}
+
+.btn-right {
+  position: absolute;
+  top: 153px;
+  right: 334px;
+  background-image: url("./pics/Arrow_Right_1x.png");
+}
+
+.frame {
+  border: solid 20px white;
+  max-height: 40%;
+  max-width: 40%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
